@@ -1,14 +1,17 @@
 AWS — 1-Day Assignment
+
 Duration: 1 Day     Level: Beginner
 
 Objective: Create basic cloud infrastructure, deploy storage/web content, configure IAM/security, and document the work.
 
 Task 1: Create S3 Storage
+
 Create an S3 bucket:
 
 student-cloud-&lt;yourname&gt;-2026
 
 Requirements
+
 • Upload cloud.jpg
 
 • Upload student-guide.pdf
@@ -18,6 +21,7 @@ Requirements
 • Configure the bucket as private
 
 Students must demonstrate:
+
 • Bucket creation
 
 • File upload
