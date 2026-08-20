@@ -32,7 +32,7 @@ Students must demonstrate:
 
 Screenshot required
 
-S3 Bucket<br/> nnn cloud.jpg<br/> nnn student-guide.pdf<br/> nnn notes.txt
+S3 Bucket<br/> cloud.jpg<br/> student-guide.pdf<br/> notes.txt
 
 Task 2: IAM Policy + Role
 
