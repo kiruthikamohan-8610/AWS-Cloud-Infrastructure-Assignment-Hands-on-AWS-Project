@@ -1,9 +1,7 @@
-AWS + Azure — 1-Day Assignment
-Duration: 1 Day     
-Level: Beginner
-Objective: Create basic cloud infrastructure, deploy storage/web content, configure IAM/security, and document the
-work.
-PART A — AWS Assignment
+AWS — 1-Day Assignment
+Duration: 1 Day     Level: Beginner
+Objective: Create basic cloud infrastructure, deploy storage/web content, configure IAM/security, and document the work.
+
 Task 1: Create S3 Storage
 Create an S3 bucket:
 student-cloud-&lt;yourname&gt;-2026
@@ -19,6 +17,7 @@ Students must demonstrate:
 • Object download
 Screenshot required
 S3 Bucket<br/> nnn cloud.jpg<br/> nnn student-guide.pdf<br/> nnn notes.txt
+
 Task 2: IAM Policy + Role
 Create a custom IAM policy that allows:
 s3:ListBucket<br/>s3:GetObject
@@ -33,11 +32,11 @@ s3://YOUR-BUCKET/cloud.jpg
 Expected result:
 AccessDenied
 This demonstrates least privilege.
+
 Task 3: EC2
 Create an EC2 instance.
 Requirements
 • Amazon Linux
-AWS + Azure — 1-Day Assignment  |  Page 1
 • Appropriate small instance for the lab
 • SSH access
 • IAM role attached
@@ -48,6 +47,7 @@ Students must submit:
 • Private/Public IP
 • IAM Role
 • S3 access result
+
 Task 4: AWS Networking
 Create a basic VPC:
 VPC<br/>10.0.0.0/16<br/> |<br/> nnn Public Subnet<br/> n 10.0.1.0/24<br/> n<br/> nnn Private
