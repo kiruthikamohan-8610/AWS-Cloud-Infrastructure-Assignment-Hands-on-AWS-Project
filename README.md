@@ -1,3 +1,69 @@
+AWS + Azure — 1-Day Assignment
+Duration: 1 Day     
+Level: Beginner
+Objective: Create basic cloud infrastructure, deploy storage/web content, configure IAM/security, and document the
+work.
+PART A — AWS Assignment
+Task 1: Create S3 Storage
+Create an S3 bucket:
+student-cloud-&lt;yourname&gt;-2026
+Requirements
+• Upload cloud.jpg
+• Upload student-guide.pdf
+• Upload notes.txt
+• Configure the bucket as private
+Students must demonstrate:
+• Bucket creation
+• File upload
+• Private access
+• Object download
+Screenshot required
+S3 Bucket<br/> nnn cloud.jpg<br/> nnn student-guide.pdf<br/> nnn notes.txt
+Task 2: IAM Policy + Role
+Create a custom IAM policy that allows:
+s3:ListBucket<br/>s3:GetObject
+Only for their own S3 bucket.
+Policy concept:
+EC2<br/> fl<br/>IAM Role<br/> fl<br/>Custom IAM Policy<br/> fl<br/>S3 Bucket
+Requirement: Do NOT use AWS access keys on EC2.
+Attach the IAM role to an EC2 instance.
+From EC2, demonstrate:
+aws s3 ls s3://YOUR-BUCKET<br/><br/>aws s3 cp s3://YOUR-BUCKET/cloud.jpg .<br/><br/>aws s3 rm
+s3://YOUR-BUCKET/cloud.jpg
+Expected result:
+AccessDenied
+This demonstrates least privilege.
+Task 3: EC2
+Create an EC2 instance.
+Requirements
+• Amazon Linux
+AWS + Azure — 1-Day Assignment  |  Page 1
+• Appropriate small instance for the lab
+• SSH access
+• IAM role attached
+• Install AWS CLI if necessary
+• Access the S3 bucket using the role
+Students must submit:
+• EC2 Instance
+• Private/Public IP
+• IAM Role
+• S3 access result
+Task 4: AWS Networking
+Create a basic VPC:
+VPC<br/>10.0.0.0/16<br/> |<br/> nnn Public Subnet<br/> n 10.0.1.0/24<br/> n<br/> nnn Private
+Subnet<br/> 10.0.2.0/24
+Students should explain:
+• VPC
+• Subnet
+• Internet Gateway
+• Route Table
+• Security Group
+• Public IP
+• Private IP
+Bonus: Launch EC2 in the public subnet and verify SSH/HTTP access.
+
+
+
 AWS Cloud Infrastructure Assignment
 📌 Project Overview
 
